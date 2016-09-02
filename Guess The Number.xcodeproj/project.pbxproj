@@ -12,8 +12,6 @@
 		EDE728961D766B5D009B3E8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE728941D766B5D009B3E8E /* Main.storyboard */; };
 		EDE728981D766B5D009B3E8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE728971D766B5D009B3E8E /* Assets.xcassets */; };
 		EDE7289B1D766B5D009B3E8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE728991D766B5D009B3E8E /* LaunchScreen.storyboard */; };
-		EDE728A61D766B5D009B3E8E /* Guess_The_NumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE728A51D766B5D009B3E8E /* Guess_The_NumberTests.swift */; };
-		EDE728B11D766B5E009B3E8E /* Guess_The_NumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE728B01D766B5E009B3E8E /* Guess_The_NumberUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		EDE7289A1D766B5D009B3E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDE7289C1D766B5D009B3E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDE728A11D766B5D009B3E8E /* Guess The NumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guess The NumberTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDE728A51D766B5D009B3E8E /* Guess_The_NumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_The_NumberTests.swift; sourceTree = "<group>"; };
-		EDE728A71D766B5D009B3E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDE728AC1D766B5D009B3E8E /* Guess The NumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guess The NumberUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDE728B01D766B5E009B3E8E /* Guess_The_NumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_The_NumberUITests.swift; sourceTree = "<group>"; };
-		EDE728B21D766B5E009B3E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				EDE7288F1D766B5D009B3E8E /* Guess The Number */,
-				EDE728A41D766B5D009B3E8E /* Guess The NumberTests */,
-				EDE728AF1D766B5E009B3E8E /* Guess The NumberUITests */,
 				EDE7288E1D766B5D009B3E8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				EDE7289C1D766B5D009B3E8E /* Info.plist */,
 			);
 			path = "Guess The Number";
-			sourceTree = "<group>";
-		};
-		EDE728A41D766B5D009B3E8E /* Guess The NumberTests */ = {
-			isa = PBXGroup;
-			children = (
-				EDE728A51D766B5D009B3E8E /* Guess_The_NumberTests.swift */,
-				EDE728A71D766B5D009B3E8E /* Info.plist */,
-			);
-			path = "Guess The NumberTests";
-			sourceTree = "<group>";
-		};
-		EDE728AF1D766B5E009B3E8E /* Guess The NumberUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EDE728B01D766B5E009B3E8E /* Guess_The_NumberUITests.swift */,
-				EDE728B21D766B5E009B3E8E /* Info.plist */,
-			);
-			path = "Guess The NumberUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDE728A61D766B5D009B3E8E /* Guess_The_NumberTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDE728B11D766B5E009B3E8E /* Guess_The_NumberUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +460,7 @@
 				EDE728B71D766B5E009B3E8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDE728B81D766B5E009B3E8E /* Build configuration list for PBXNativeTarget "Guess The NumberTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +469,7 @@
 				EDE728BA1D766B5E009B3E8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDE728BB1D766B5E009B3E8E /* Build configuration list for PBXNativeTarget "Guess The NumberUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +478,7 @@
 				EDE728BD1D766B5E009B3E8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
