@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
     
     func generateRandomNumber() {
-        numberToGuess = Int(arc4random_uniform(100)) + 1
+        numberToGuess = Int.random(in: lowerBound...upperBound)
     }
 
     
